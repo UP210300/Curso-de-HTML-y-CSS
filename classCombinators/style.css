@@ -1,0 +1,30 @@
+/*
+Adjacent sibling: separates two selectors and matches the second element
+only if it immediately follows the first element, and both are children
+of the same parent element
+h2 + p {
+    color: crimson;
+}*/
+/*
+General sibling: separates two selectors and matches all iterations of the
+second element, that are following the first element (though not necessarily
+immediately), and are children of the same parent element.
+h2 ~ p {
+    color: blueviolet;
+}
+*/
+/*
+Child: matches only those elements matched by the second selector that are
+the direct children of elements matched by the first.
+div > p {
+    color: greenyellow;
+}
+*/
+/*
+Descendant: combines two selectors such that elements matched by the second
+selector are selected if they have an ancestor (parent, parent's parent,
+parent's parent's parent, etc.) element matching the first selector.
+ */
+div p {
+    color: chocolate;
+}
