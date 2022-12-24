@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1, 
+.c2, 
+.c3, 
+.c4, 
+.c5, 
+.c6 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.c1{
+    background-color: aqua;
+}
+.c2{
+    background-color: rgb(37, 135, 135);
+}
+.c3{
+    background-color: rgb(22, 131, 131);
+}
+.c4{
+    background-color: rgb(57, 118, 118);
+}
+.c5{
+    background-color: rgb(14, 128, 128);
+}
