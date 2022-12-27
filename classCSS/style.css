@@ -1,0 +1,17 @@
+p{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 20px;
+}
+/*Class*/
+.parrafo{
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 40px;
+}
+/*ID*/
+#paragraph{
+    color: cornflowerblue;
+    font-family: fantasy;
+    font-size: 30px;
+}

@@ -1,0 +1,24 @@
+.main-mav{
+    margin-top: 10px;
+    background-color: bisque;
+    font-family: fantasy;
+    padding-left: unset;
+    list-style: unset;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color: crimson;
+    padding: 5px;
+    border-radius: 2px;
+}
+.main-nav__item a:hover{
+    color: blueviolet;
+}
+.main-nav__item a:active{
+    color: cornflowerblue;
+}
+.main-nav__item a::after{
+    content: "|";
+}

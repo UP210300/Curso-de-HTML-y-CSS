@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: darkslateblue;
+    font-family: Georgia;
+}
+.title{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: monospace;
+}
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li {
+    display: inline-block;
+}
+#main-nav a {
+    color: cornflowerblue;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+#main-nav .blog{
+    background-color: greenyellow;
+}
